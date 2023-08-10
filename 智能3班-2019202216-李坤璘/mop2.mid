@@ -1,0 +1,102 @@
+;取址微指令
+-00876A
+-
+-
+
+;ADD A,Ri
+-9BAEBC
+-00876A
+-
+-
+
+;SUB A Ri
+-638EBC
+-00876A
+-
+-
+
+;MOV A,@Ri
+-ACCEBC
+-030FBA
+-00876A
+-
+-
+-
+-
+-
+
+;MOV A Ri
+-AF8EBC
+-00876A
+-
+-
+
+;MOV Ri A
+-088EBF
+-00876A
+-
+-
+
+;MOV A ,#data
+-038FFA
+-00876A
+-
+-
+
+;MOV RI #data
+-008FFB
+-00876A
+-
+-
+
+;LDA addr
+-00CFFA
+-030FBA
+-00876A
+-
+
+;LDA addr
+-00CFFA
+-030FBA
+-00876A
+-
+
+;STA addr
+-00CFFA
+-080EB6
+-00876A
+-
+
+;STA addr
+-00CFFA
+-080EB6
+-00876A
+-
+
+;RLC A
+-02AFBE
+-00876A
+-
+-
+
+;RRC A
+-01AFBE
+-00876A
+-
+-
+
+;JZ Addr
+-00CFFA
+
+;JC addr
+-000DBE
+
+;JA0 addr
+-00876A
+
+;JMP addr
+-
+
+;HALT
+-008F9E
+-00876A
